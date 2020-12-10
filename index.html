@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title> RAMVS</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="\css\materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body style="background-color:gainsboro;">
+  <nav class=" #01579b light-blue darken-4" role="navigation">
+    <div class="nav-wrapper "><a id="logo-container" href="#" class="brand-logo"><img src="C:\Users\ROSSANA\Downloads\Ramvs Jurimetrics Logo.png" align="center" alt="ramvs"></a> 
+        <i class="large material-icons" style="font-size:50px align="center"  >home</i>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+     <i class="large material-icons">search</i>
+     <br>
+      <div class="row right">
+      </div>
+      <br><br>
+    </div>
+  </div>
+  <div class="row" style ="padding: 100px;">
+    <div class="col s12 m5"  ></div><div class="card-panel white"  >
+        <span class="white-text">
+          <div class="container">
+            <div class="section">
+              <div class="row">
+                <form class="col s12" >
+                  <div class="row">
+            <div class="column">
+              <div class="input-field col s4">
+              <label > ESPECIALIDAD </label>
+              <select name="ESPECIALIDAD" id="ESPECIALIDAD" style="padding-left: 20px;"> 
+                  <option value="ESPECIALIDAD" disabled selected> </option>
+                <option value="1"> Civil </option>
+                <option value="2"> Penal </option>
+                <option value="3"> Laboral </option>
+              </select>
+          </div>
+              </div>
+            </div>
+            <div class="column"> 
+            <div class="input-field col s4">
+              <input placeholder=" " id="last_name" type="text" class="validate">
+              <label for="caso">CASO </label>
+              <div class="input-field col s4" > 
+                <select >
+                  <option value="" disabled selected> </option>
+                  <option value="1"> Robo </option>
+                  <option value="2"> Tráfico de drogas </option>
+                  <option value="3"> Petición de herencia </option>
+                  <option value="1"> Incumplimiento de contrato </option>
+                  <option value="2"> Obligación de dar suma de dinero </option>
+                  <option value="3"> Separación de cuerpos </option>
+                  <option value="1"> Exoneración de pago de pensión alimenticia </option>
+                  <option value="2"> Omisión de asistencia familiar </option>
+                  <option value="3"> Resistencia y desobediencia a la aut </option>
+                </select>
+              </div>
+            </div> 
+          </div>
+          <div class="row">
+            <div class="column"> 
+            <div class="input-field col s4">
+              <input placeholder=" " id="disabled" type="text" class="validate">
+              <label for="Claves"> PALABRAS CLAVES </label>
+            </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column"> 
+            <div class="input-field col s4">
+              <input placeholder=" " id="last_name" type="text" class="validate">
+              <label for="instancia"> INSTANCIA </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column"> 
+            <div class="input-field col s4">
+              <input placeholder=" "  id="autocomplete-input" class="autocomplete" type="text">
+              <label for="autocomplete-input">JUZGADO </label>
+            </div>
+          </div>
+          <div class="column" align="row right"> 
+          <a href="#" id="search-button" type="submit " class="btn-large waves-effect waves-light light-blue">Buscar</a>
+        </form>
+      </span>
+    </div>
+  </div>
+</div>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
